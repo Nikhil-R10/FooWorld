@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: 9810f3a383eec0be1fb08797e823a04171e4c1d70ca97ae287e410e73d5a4a16
       BRANCH_NAME: D-bot
-      SCAN_ID: 78bacc708bc3769e8e6e788b26a3ad43d48274bb40eeab3ca8ed6d5e895b77c1
+      SCAN_ID: 11d9762f4870c00275c57f22d49ef2e47afd6ca6aa9fd75d2c27e77f734039a6
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://82ad-49-205-81-4.ngrok.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://cb47-49-205-81-4.ngrok.io/resultparserapi\"\
         }')}}"
