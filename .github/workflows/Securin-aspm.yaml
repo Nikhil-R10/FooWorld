@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: a76d22eb12559443a871da56668d41c33195780722e458d64b013a9cc4ef18d7
       BRANCH_NAME: iacbot-add-soluble-badges-4738a
-      SCAN_ID: c57c3fa18c172fea7a295119824d1b60ed1a8dd2589d61a026d6492af71fa580
+      SCAN_ID: 61ee68c029eec687ecad9257fdd2f3d21da69ed088c7d82ada0b7962b6b3bcf6
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
