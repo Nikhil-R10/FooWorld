@@ -13,14 +13,14 @@ jobs:
     env:
       APP_ID: 9810f3a383eec0be1fb08797e823a04171e4c1d70ca97ae287e410e73d5a4a16
       BRANCH_NAME: snyk-upgrade-98261928bdd02b9320081b8b67fb377f
-      SCAN_ID: 0d02b4a04000675eeef40b63fa1ac34ccd8684324c41e558a3dc5f9ee9df1451
-      REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://6797-49-204-140-90.ngrok.io/resultapi\"\
-        ,\"SL_RESULTPARSER_API_HOST\":\"https://88c1-49-204-140-90.ngrok.io/resultparserapi\"\
+      SCAN_ID: dde9efa76d911cf7744b4ec1225d21ce64581a11173a21b5feb308e0ac35936a
+      REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://1443-49-205-83-97.ngrok.io/resultapi\"\
+        ,\"SL_RESULTPARSER_API_HOST\":\"https://ff29-49-205-83-97.ngrok.io/resultparserapi\"\
         }')}}"
     steps:
     - name: Retrieve Token Info
       id: auth_token
-      run: "respJson=$(curl --location --request GET 'https://6797-49-204-140-90.ngrok.io/resultapi/aws/ecr/token'\
+      run: "respJson=$(curl --location --request GET 'https://1443-49-205-83-97.ngrok.io/resultapi/aws/ecr/token'\
         \  --header 'Authorization: Bearer ${{secrets.CLI_ACCESS_TOKEN}}'  --data-raw\
         \ ' ' ) \necho \"authTokenJson=$respJson\" >> $GITHUB_OUTPUT"
     - uses: actions/checkout@v3
