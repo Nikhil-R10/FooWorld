@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: a76d22eb12559443a871da56668d41c33195780722e458d64b013a9cc4ef18d7
       BRANCH_NAME: D-bot
-      SCAN_ID: c54655f20f1cbdfc4a9e812e078f66ea6f430c2dbcf6b64131d4937898d523e9
+      SCAN_ID: c59cdfa7317e0a2358fc46a5f0e04534d14bd589f5e9ef77e0ccc3a74233e870
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
