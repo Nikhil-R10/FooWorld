@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: a76d22eb12559443a871da56668d41c33195780722e458d64b013a9cc4ef18d7
       BRANCH_NAME: dependabot/maven/com.github.spotbugs-spotbugs-maven-plugin-4.7.1.1
-      SCAN_ID: b5f48d3092d48b4dbc9d01ccb8509f53d748006dc4387a6e960d7460f3be5172
+      SCAN_ID: f82ed0a2f128167494f711623ffc73b837a7ca954969e5e2ac4d4ae22e9d4a16
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.qa.securin.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.qa.securin.io/resultparserapi\"\
         }')}}"
