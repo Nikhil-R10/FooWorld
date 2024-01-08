@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: fd062f090182fcc557670ba405ed43ba6d0306016ad1ebab99e101f39eec48b8
       BRANCH_NAME: main
-      SCAN_ID: 6a99115f83abcd3fb0237c23197b99d0defa6b21089772647431f5ed3eaabbdd
+      SCAN_ID: bcdf2154a7bd3d1f21d204acda1b45664d852ac4370a56c6689d19d82fe660a5
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://breezy-impalas-cheer.loca.lt/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://loose-guests-stay.loca.lt/resultparserapi\"\
         }')}}"
